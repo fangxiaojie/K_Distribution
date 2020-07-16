@@ -25,8 +25,7 @@ int main()
 	dis.Maxwell_distri(3.0);
 	dis.K_distri(Sigma,9.1E-31);
 	cout << dis.distri_K << endl;
-	//text_out.Close();
-	text_out.~Ofstream_me();
-	dis.~K_Distribution_Class();
+	//text_out.~Ofstream_me();
+	//dis.~K_Distribution_Class();
 	return 0;
 }
